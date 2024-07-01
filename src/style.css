@@ -1,0 +1,482 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-base: #1F1D1D;
+    --color-subtitulos: #EA9FD7;
+    --color-letra: #BBBBBB;
+    --color-input: #232323;
+    --color-border: #333333;
+    --color-letra-secundario: #232323;
+    --letra-principal: "Roboto", sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: var(--color-base);
+    font-family: var(--letra-principal);
+    cursor: url(./assets/cursor-icon.png), auto;
+}
+
+nav {
+
+    /* width: 250px; */
+    height: 86px;
+
+}
+
+.lista-nav {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    padding-bottom: 20px;
+
+}
+
+li {
+    list-style: none;
+    margin-top: 35px;
+
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-subtitulos);
+    font-family:var(--letra-principal);
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+    
+}
+
+header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    min-width: 100%;
+    height: 600px;
+    background-image: linear-gradient(to right bottom, #b20ecf46, #ca5ad72f), url(./assets/background.png);
+
+
+}
+
+.titulo-secundario p {
+    display: flex;
+    margin-top: 110px;
+    font-size: 40px;
+    font-family: var(--letra-principal);
+    color: #ffff;
+    justify-content: center;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    text-align: center;
+    word-spacing: 15px;
+
+
+}
+
+.titulo-principal {
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    color: var(--color-subtitulos);
+    font-weight: bold;
+    text-shadow: 4px 4px 0px #333333;
+
+}
+
+.contenedor-botones {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.descargar-cv {
+    width: 120px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: #100F0F;
+    border: 1px solid rgba(255, 255, 255, 0.28);
+    color: #ffff;
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin-left: 25px;
+    cursor: pointer;
+    padding: 12px;
+    text-align: center;
+
+}
+
+.WhatsApp {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+.encabezado-secundario {
+    color: var(--color-subtitulos);
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 17px;
+    margin-left: 125px;
+    margin-top: 35px;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+}
+
+.texto-sobre-mi {
+    width: 1120px;
+    height: 210px;
+    color: var(--color-letra);
+    font-weight: normal;
+    line-height: 30px;
+    letter-spacing: 1px;
+    font-size: 16px;
+    margin-left: 125px;
+    margin-top: 25px;
+
+}
+
+.contenedor-habilidades {
+    width: 1350px;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+
+
+}
+
+.lista-habilidades {
+    width: 1300px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+
+
+}
+
+.lista-habilidades li {
+    width: 210px;
+    height: 40px;
+    border: 1px solid rgba(51, 51, 51, 0.95);
+    background-color: var(--color-input);
+    border-radius: 5px;
+    color: #ffff;
+    font-weight: 400;
+    text-align: center;
+    align-content: center;
+
+}
+
+.section-certificado {
+    width: 100%;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/*Estilos para el carrusel*/
+
+.d-block {
+    width: 450px;
+    height: 300px;
+    border-radius: 25px;
+}
+
+/*Estilos de proyectos*/
+.section-proyectos {
+    width: 100%;
+    height: auto;
+
+}
+
+.contenedor-proyectos {
+
+    justify-items: center;
+    display: grid;
+    grid-template-columns: 600px 2fr;
+
+
+}
+
+.card-proyecto {
+
+    padding-bottom: 25px;
+    padding-left: 50px;
+}
+
+
+.card-proyecto h2 {
+    width: 478px;
+    font-size: 25px;
+    font-weight: 500;
+    color: #eef0f8;
+    font-family: "Poppins", sans-serif;
+    padding-left: 30px;
+}
+
+.card-proyecto p {
+    width: 478px;
+    height: auto;
+    color: var(--color-letra);
+    font-weight: normal;
+    line-height: 30px;
+    letter-spacing: 1px;
+    font-size: 16px;
+    padding-left: 30px;
+    
+}
+.button{
+    margin-bottom: 28px;
+}
+
+ .Demo , .github {
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 1);
+    color: #fff;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: 400;
+    border: none;
+    margin-left: 30px;
+    
+}
+
+
+
+/*footer*/
+
+footer {
+    display: flex;
+
+    width: 100%;
+    height: 240px;
+    background-color: #100F0F;
+    justify-content: space-between;
+    padding: 45px;
+    align-items: flex-end;
+}
+
+.linea-footer {
+    display: block;
+    width: 1200px;
+    color: #fff;
+    margin-top: 45px;
+
+}
+
+footer p {
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: var(--letra-principal);
+    justify-content: center;
+}
+
+.copywrite{
+    font-size: 14px;
+    font-weight: normal;
+    color: #fff;
+    text-transform: lowercase;
+    font-family: var(--letra-principal) !important;
+
+}
+
+
+.contenedor-navbar ul {
+    display: flex;
+    gap: 70px;
+    margin-bottom: 0;
+}
+
+.contenedor-navbar li a {
+    color: #ffff;
+    font-size: 14px;
+}
+
+.contenedor-iconos {
+    display: flex;
+    justify-content: flex-end;
+    gap: 40px;
+    margin-top: 35px;
+}
+
+.contenedor-iconos img {
+    width: 30px;
+    height: 30px;
+
+}
+
+
+/*nuevos estilos*/
+.lista-nav{
+    backdrop-filter: blur(10px);
+    border-radius: 25px;
+    position: fixed;
+    top: 0;
+    width: 600px;
+    z-index: 100;
+    left: 50%;
+  transform: translateX(-50%);
+}
+
+/*responsive*/
+@media(min-width: 320px) and (max-width:1000px){
+ 
+
+    header{
+        height: 450px;
+        object-fit: contain;
+        background-position: center;
+        justify-content: center;
+        
+    }
+    nav{
+        display:none;
+    }
+    .titulo-secundario p {
+        font-size: 25px;
+       
+
+        
+    }
+    .titulo-principal {
+        font-size: 35px;
+        margin-top: 25px;
+    }
+    
+    .contenedor-botones  {
+        width: 350px;
+        height: 150px;
+    }
+    .WhatsApp{
+        width: 50px;
+        height: 50px;
+    }
+    .descargar-cv{
+        width: 100px;
+        height: 35px;
+        font-size: 11px;
+        padding: 8px;
+    }
+    .sobremi{
+      display: flex;
+      flex-direction: column;
+      
+    }
+    .encabezado-secundario{ 
+     margin-left: 35px;
+    
+    }
+    .texto-sobre-mi{
+        width: 100%;
+        margin: 0;
+        padding: 35px;
+        height: 40%;
+        padding-top: 0;
+    }
+    .lista-habilidades {
+        width: 25%;
+        padding-left: 0;
+        margin-bottom: 0;
+
+    }
+    .lista-habilidades ul{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+
+    }
+    .lista-habilidades li{
+        width: 80px;
+        height: 20px;
+        font-size: 11px;
+        margin-top: 0;
+    }
+    .section-certificado{
+        height: 240px;
+    }
+    .d-block {
+      height: 225px;
+      padding: 15px;
+    }
+    .contenedor-habilidades{
+        
+     flex-direction: column;
+     margin-bottom: 0;
+     height: 200px;
+
+    }
+    .contenedor-proyectos{
+       display: flex;
+       flex-direction: column;
+    }
+    .card-proyecto img{
+        width: 252px;
+        height: 150px;
+        margin-left: 30px;
+        
+    }
+
+    .card-proyecto{
+        padding-bottom: 25px;
+        padding-left: 10px;
+    }
+    .card-proyecto h2 p{
+        padding-left: 15px;
+    }
+    .card-proyecto p{
+        width: 300px;
+    }
+    .button{
+        height: 45px;
+        padding: 5px;
+        align-content:center;
+    }
+    .button a {
+    width: 45px;
+    height: 25px;
+    }
+
+    footer{
+        width:400px ;
+        height: 240px;
+        
+    }
+    .copywrite{
+        margin-bottom: 0;
+    }
+    .contenedor-navbar ul{
+       display: none;
+    }
+    .contenedor-iconos{
+        flex-direction: column;
+        width: 150px;
+       height: 140px;
+       margin: 0;
+       gap: 10px;
+       align-items: center
+    }
+    .contenedor-iconos img{
+        width: 20px;
+        height: 20px;
+    }
+    
+    }
+    
+    
+    
