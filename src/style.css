@@ -409,8 +409,8 @@ footer p {
 
     }
     .lista-habilidades li{
-        width: 90px;
-        height: 25px;
+        width: 100px;
+        height: 28px;
         font-size: 11px;
         margin-top: 0;
     }
@@ -424,9 +424,8 @@ footer p {
     .contenedor-habilidades{
      width: max-content;
      flex-direction: column;
-     margin-bottom: 0;
      height: 200px;
-     padding: 10px;
+     margin-left: -15px;
 
     }
     .contenedor-proyectos{
@@ -442,7 +441,7 @@ footer p {
 
     .card-proyecto{
         padding-bottom: 25px;
-        margin-left: -15px;
+        margin-left: -18px;
     }
     .card-proyecto h2 p{
         padding-left: 15px;
