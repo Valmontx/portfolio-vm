@@ -397,9 +397,10 @@ footer p {
     }
 
     .lista-habilidades {
-        width: 25%;
+        width: 22%;
         padding-left:0;
         margin-bottom: 0;
+        
 
     }
     .lista-habilidades ul{
@@ -413,6 +414,7 @@ footer p {
         height: 28px;
         font-size: 11px;
         margin-top: 0;
+        padding: 5px;
     }
     .section-certificado{
         height: 240px;
@@ -423,8 +425,11 @@ footer p {
     }
     .contenedor-habilidades{
      width: max-content;
+     display: flex;
      flex-direction: column;
-     height: 200px;
+     height: 220px;
+     padding-right: 8px;
+     padding-left: 8px;
 
     }
     .contenedor-proyectos{
