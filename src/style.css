@@ -364,8 +364,7 @@ footer p {
     }
     
     .contenedor-botones  {
-        width: 350px;
-        height: 150px;
+        height: 180px;
     }
     .WhatsApp{
         width: 45px;
@@ -443,6 +442,7 @@ footer p {
 
     .card-proyecto{
         padding-bottom: 25px;
+        margin-left: -15px;
     }
     .card-proyecto h2 p{
         padding-left: 15px;
