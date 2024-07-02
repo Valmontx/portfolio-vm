@@ -116,10 +116,11 @@ header {
 
 .WhatsApp {
     display: inline-block;
-    width: 70px;
-    height: 70px;
+    width: 50px;
+    height: 50px;
     margin-right: 25px;
     cursor: pointer;
+    box-shadow: rgba(255, 255, 255, 0.28);
 }
 
 .encabezado-secundario {
@@ -336,10 +337,13 @@ footer p {
 
 /*responsive*/
 @media(min-width: 320px) and (max-width:1000px){
- 
+   
+    html{
+        overflow-x: hidden;
+    }
 
     header{
-        height: 450px;
+        height: 500px;  /*comparar */
         object-fit: contain;
         background-position: center;
         justify-content: center;
@@ -364,8 +368,10 @@ footer p {
         height: 150px;
     }
     .WhatsApp{
-        width: 50px;
-        height: 50px;
+        width: 45px;
+        height: 45px;
+        
+
     }
     .descargar-cv{
         width: 100px;
@@ -380,6 +386,7 @@ footer p {
     }
     .encabezado-secundario{ 
      margin-left: 35px;
+     margin-right: 10px;
     
     }
     .texto-sobre-mi{
@@ -389,9 +396,10 @@ footer p {
         height: 40%;
         padding-top: 0;
     }
+
     .lista-habilidades {
         width: 25%;
-        padding-left: 0;
+        padding-left:0;
         margin-bottom: 0;
 
     }
@@ -402,8 +410,8 @@ footer p {
 
     }
     .lista-habilidades li{
-        width: 80px;
-        height: 20px;
+        width: 90px;
+        height: 25px;
         font-size: 11px;
         margin-top: 0;
     }
@@ -419,6 +427,7 @@ footer p {
      flex-direction: column;
      margin-bottom: 0;
      height: 200px;
+     padding: 10px;
 
     }
     .contenedor-proyectos{
@@ -434,7 +443,7 @@ footer p {
 
     .card-proyecto{
         padding-bottom: 25px;
-        padding-left: 10px;
+        padding-left: 15px;
     }
     .card-proyecto h2 p{
         padding-left: 15px;
@@ -453,7 +462,7 @@ footer p {
     }
 
     footer{
-        width:400px ;
+        width:420px;
         height: 240px;
         
     }
