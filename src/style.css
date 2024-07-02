@@ -423,7 +423,7 @@ footer p {
       padding: 15px;
     }
     .contenedor-habilidades{
-        
+     width: max-content;
      flex-direction: column;
      margin-bottom: 0;
      height: 200px;
@@ -443,13 +443,12 @@ footer p {
 
     .card-proyecto{
         padding-bottom: 25px;
-        padding-left: 15px;
     }
     .card-proyecto h2 p{
         padding-left: 15px;
     }
     .card-proyecto p{
-        width: 300px;
+        width: 325px; /*300*/
     }
     .button{
         height: 45px;
@@ -462,7 +461,7 @@ footer p {
     }
 
     footer{
-        width:420px;
+        width:450px;
         height: 240px;
         
     }
