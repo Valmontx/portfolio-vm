@@ -45,11 +45,11 @@ li {
 a {
     text-decoration: none;
     color: var(--color-subtitulos);
-    font-family:var(--letra-principal);
+    font-family: var(--letra-principal);
     font-weight: 300;
     font-style: normal;
     font-size: 18px;
-    
+
 }
 
 header {
@@ -144,14 +144,14 @@ header {
     font-size: 16px;
     display: flex;
     justify-content: center;
-    padding-right:20px;
+    padding-right: 20px;
     padding-left: 25px;
     margin-top: 25px;
 
 }
 
 .contenedor-habilidades {
-   
+
     height: auto;
     display: flex;
     justify-content: center;
@@ -159,6 +159,11 @@ header {
 
 
 
+}
+ul.lista-habilidades{
+   
+    padding-left: 8px;
+    padding-right: 8px;
 }
 
 .lista-habilidades {
@@ -222,10 +227,11 @@ header {
 .card-proyecto {
 
     padding-bottom: 30px;
-    
-    
+
+
 }
-.card-proyecto img{
+
+.card-proyecto img {
     width: 280px;
     height: 160px;
     margin-left: 30px;
@@ -250,13 +256,15 @@ header {
     letter-spacing: 1px;
     font-size: 13px;
     padding-left: 30px;
-    
+
 }
-.button{
+
+.button {
     margin-bottom: 28px;
 }
 
- .Demo , .github {
+.Demo,
+.github {
     border-radius: 8px;
     background-color: rgba(0, 0, 0, 1);
     color: #fff;
@@ -265,7 +273,7 @@ header {
     font-weight: 400;
     border: none;
     margin-left: 30px;
-    
+
 }
 
 
@@ -300,7 +308,7 @@ footer p {
     justify-content: center;
 }
 
-.copywrite{
+.copywrite {
     font-size: 14px;
     font-weight: normal;
     color: #fff;
@@ -336,7 +344,7 @@ footer p {
 
 
 /*nuevos estilos*/
-.lista-nav{
+.lista-nav {
     backdrop-filter: blur(10px);
     border-radius: 25px;
     position: fixed;
@@ -344,64 +352,72 @@ footer p {
     width: 600px;
     z-index: 100;
     left: 50%;
-  transform: translateX(-50%);
+    transform: translateX(-50%);
 }
 
 /*responsive*/
-@media(min-width: 320px) and (max-width:1000px){
-   
-    html{
+@media(min-width: 320px) and (max-width:1000px) {
+
+    html {
         overflow-x: hidden;
     }
 
-    header{
-        height: 500px;  /*comparar */
+    header {
+        height: 500px;
+        /*comparar */
         object-fit: contain;
         background-position: center;
         justify-content: center;
-        
+
     }
-    nav{
-        display:none;
+
+    nav {
+        display: none;
     }
+
     .titulo-secundario p {
         font-size: 25px;
-       
 
-        
+
+
     }
+
     .titulo-principal {
         font-size: 35px;
         margin-top: 25px;
     }
-    
-    .contenedor-botones  {
+
+    .contenedor-botones {
         height: 180px;
     }
-    .WhatsApp{
+
+    .WhatsApp {
         width: 45px;
         height: 45px;
-        
+
 
     }
-    
-    .descargar-cv{
+
+    .descargar-cv {
         width: 100px;
         height: 35px;
         font-size: 11px;
         padding: 8px;
     }
-    .sobremi{
-      display: flex;
-      flex-direction: column;
-      
+
+    .sobremi {
+        display: flex;
+        flex-direction: column;
+
     }
-    .encabezado-secundario{ 
-     margin-left: 35px;
-     margin-right: 10px;
-    
+
+    .encabezado-secundario {
+        margin-left: 35px;
+        margin-right: 10px;
+
     }
-    .texto-sobre-mi{
+
+    .texto-sobre-mi {
         width: 100%;
         margin: 0;
         padding: 35px;
@@ -410,97 +426,111 @@ footer p {
     }
 
     .lista-habilidades {
-        width: 22%;
-        padding-left:0;
-        margin-bottom: 0;
-        
+        width: auto;
 
     }
-    .lista-habilidades ul{
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
 
-    }
-    .lista-habilidades li{
+    .lista-habilidades li {
+
         width: 100px;
         height: 28px;
         font-size: 11px;
         margin-top: 0;
         padding: 5px;
     }
-    .section-certificado{
+    .lista-habilidades ul{
+        margin-right: 0;
+        padding-right: 0;
+    }
+
+    .section-certificado {
         height: 240px;
     }
+
     .d-block {
-      height: 225px;
-      padding: 15px;
+        height: 225px;
+        padding: 15px;
     }
-    .contenedor-habilidades{
-     width: max-content;
-     display: flex;
-     flex-direction: column;
-     height: 220px;
-     padding-right: 8px;
-     padding-left: 8px;
+
+    .contenedor-habilidades {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    
+        
 
     }
-    .contenedor-proyectos{
-       display: flex;
-       flex-direction: column;
+
+    .contenedor-proyectos {
+        justify-items: center;
+        display: flex;
+        flex-direction: column;
+        padding: auto;
+        
     }
-    .card-proyecto img{
+
+    .card-proyecto img {
         width: 252px;
         height: 150px;
-        margin-left: 30px;
         
+
     }
 
-    .card-proyecto{
+    .card-proyecto {
         padding-bottom: 25px;
-        margin-left: -18px;
+        padding-left: 15px; 
+        padding-right: 15px;
+        
+    ;
     }
-    .card-proyecto h2 p{
+
+    .card-proyecto h2 p {
         padding-left: 15px;
     }
-    .card-proyecto p{
-        width: 325px; /*300*/
-    }
-    .button{
-        height: 45px;
-        padding: 5px;
-        align-content:center;
-    }
-    .button a {
-    width: 45px;
-    height: 25px;
+
+    .card-proyecto p {
+        width: 325px;
+        /*300*/
     }
 
-    footer{
-        width:450px;
-        height: 240px;
-        
+    .button {
+        height: 45px;
+        padding: 5px;
+        align-content: center;
     }
-    .copywrite{
+
+    .button a {
+        width: 45px;
+        height: 25px;
+    }
+
+    footer {
+        width: 450px;
+        height: 240px;
+
+    }
+
+    .copywrite {
         margin-bottom: 0;
     }
-    .contenedor-navbar ul{
-       display: none;
+
+    .contenedor-navbar ul {
+        display: none;
     }
-    .contenedor-iconos{
+
+    .contenedor-iconos {
         flex-direction: column;
         width: 150px;
-       height: 140px;
-       margin: 0;
-       gap: 10px;
-       align-items: center
+        height: 140px;
+        margin: 0;
+        gap: 10px;
+        align-items: center
     }
-    .contenedor-iconos img{
+
+    .contenedor-iconos img {
         width: 20px;
         height: 20px;
     }
-    
-    }
-    
-    
-    
+
+}
