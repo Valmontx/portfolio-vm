@@ -1,0 +1,126 @@
+/*responsive*/
+@media(min-width: 320px) and (max-width:1200px) {
+
+    html {
+        overflow-x: hidden;
+    }
+
+    header {
+        display: flex;
+        height: 300px;
+        /*comparar */
+        object-fit: contain;
+        background-position: center;
+        justify-content: space-around;
+
+    }
+    .contenedor-botones{
+        height: auto;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .contenedor-titulos p {
+        font-size: 14px;
+    }
+
+    
+
+    .WhatsApp {
+        width: 40px;
+        height: 40px;
+    }
+
+    .descargar-cv {
+        width:auto;
+        height: 35px;
+        font-size: 11px;
+        padding: 8px;
+    }
+
+    .sobremi {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .encabezado-secundario{
+        font-size: 0.8em;
+    }
+
+    .texto-sobre-mi {
+        width: 100%;
+        text-align: justify;
+    }
+
+    .lista-habilidades {
+        width: auto;
+    }
+
+    .lista-habilidades li {
+
+        width: auto;
+        height: 20px;
+        font-size: 6px;
+        margin-top: 0;
+        padding: 5px;
+    }
+    .lista-habilidades ul{
+        margin-right: 0;
+        padding-right: 0;
+    }
+
+    .section-certificado {
+        height: 240px;
+    }
+
+    .d-block {
+        height: 225px;
+        padding: 15px;
+    }
+
+    .contenedor-habilidades {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+
+    .card-proyecto {
+         height: auto;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: justify;
+        
+    
+    } 
+   
+    footer {
+        width: auto;
+        height: auto;
+    }
+
+
+    .contenedor-navbar ul {
+        display: none;
+    }
+
+    .contenedor-iconos {
+        flex-direction: column;
+        width: 150px;
+        height: 140px;
+        margin: 0;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contenedor-iconos img {
+        width: 20px;
+        height: 20px;
+    }
+
+}

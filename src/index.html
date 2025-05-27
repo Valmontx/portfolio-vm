@@ -11,15 +11,12 @@
 
     <link rel='stylesheet' type='text/css' href='style.css'>
     <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="responsive.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -34,53 +31,33 @@
             </ul>
         </nav>
 
-        <div class="titulo-secundario">
-           
-            <p>Hola, soy Valeria
-                <br> Tu aliada en el
-            </p>
-            <h1 class="titulo-principal">Desarrollo web </h1>
+        <div class="contenedor-titulos ">
+
+            <p>¡Hola! Bienvenido a mi portfolio</p>
+            <p>Soy Valeria 👾 y te ayudo a crear <br>
+                <span>Diseños web funcionales</span>
+                que conecten con tus usuarios.</p>
+            <!-- <h1 class="titulo-principal">Diseño web funcional </h1> -->
         </div>
         <div class="contenedor-botones">
             <a href="./cv/Cv vm.pdf" download="Cv-actual.pdf" class="descargar-cv"> Descargar cv </a>
-            <a href="https://wa.me/51933989733"> <img class="WhatsApp" src="./assets/whatsapp.png"> </a> 
-           
+            <a href="https://wa.me/51933989733"> <img class="WhatsApp" src="./assets/whatsapp.png"> </a>
+
         </div>
     </header>
     <section class="sobremi">
-        <h3 class="encabezado-secundario" id="sobreMi"> Sobre mí</h3>
-        <p class=" texto-sobre-mi">Desde que incursioné en el desarrollo frontend he seguido capacitándome activamente, con el
-            gran motivo de crear diseños auténticos, funcionales y sin complicaciones. Me encanta el proceso de poder
-            imaginar, analizar y buscar soluciones, me siento  motivada de ver mis ideas en proyección y que de alguna manera
-            puedan aportar favorablemente al cliente-empresa. Siempre estoy buscando nuevas técnicas para mejorar mi
-            velocidad y eficiencia.Además del código, me gusta mucho el mundo de la belleza, tengo habilidades con el
-            arte, especialmente con el maquillaje, por eso me siento muy cómoda desarrollando sitios web de belleza-estética.
-            Ademas de mi interés por crear sitios webs educativos y animados. ¡Vamos a trabajar juntos!</p>
+        <h3 class="encabezado-secundario" id="sobreMi"></h3>
+        <p class=" texto-sobre-mi"><i>Te cuento un poco sobre mí... <br>
+                Tengo conocimientos en diseño <b>UX/UI</b> y también en <b>código</b>, lo que me permite transformar ideas en
+                experiencias
+                digitales funcionales. Me apasiona crear con propósito y estoy comprometida a seguir aprendiendo cada
+                día
+                para perfeccionar mis habilidades y crecer en lo que me encanta hacer.</i></p>
     </section>
     <section class="section-habilidades">
-        <h3 class="encabezado-secundario"> Habilidades</h3>
+        <h3 class="encabezado-secundario"> tecnologías </h3>
         <div class="contenedor-habilidades">
-            <ul class="lista-habilidades">
-                <li>JavaScript</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Sass</li>
-                <li>React</li>
-                <li>Vue/Básico</li>
-                <li>Node.js</li>
-                <li>Firebase</li>
-                <li>AWS/Básico</li>
-                <li>GitHub</li>
-                <li>Git</li>
-                <li>Bootstrap</li>
-                <li>Tailwind</li>
-                <li>Figma</li>
-                <li>Moqups</li>
-                <li>Marvel</li>
-                <li>WordPress</li>
-                <li>Chatlayer</li>
-                <li>Canva</li>
-                <li>Jira</li>
+            <ul class="lista-habilidades" id="habilidades">
             </ul>
         </div>
     </section>
@@ -107,50 +84,49 @@
         </div>
     </section>
     <section class="section-proyectos" id="proyectos">
-        <h3 class="encabezado-secundario"> Proyectos frontend | Diseño UX-UI</h3>
+        <h3 class="encabezado-secundario"> Proyectos</h3>
         <div class="contenedor-proyectos">
             <div class="card-proyecto">
-                <img src="./assets/Group 1.png">
+                <img class="img-proyecto" src="./assets/Group 1.png">
                 <h2> Pet Lover</h2>
                 <p>El simulador de tarjetas de crédito es un sitio web que incorpora una tarjeta con estilo de cupón lo
                     cual el monto ingresado será destinado exclusivamente
                     para apoyar a animales abandonados.
                     (Proyecto educativo)</p>
-                <div class="button">
+                <div class="contenedor-button">
                     <a class="Demo" target="_blank" href="https://sage-tartufo-22d769.netlify.app/">Demo</a>
                     <a class="github" target="_blank" href="https://github.com/Valmontx/Pets-love">GitHub</a>
                 </div>
             </div>
 
             <div class="card-proyecto">
-                <img src="./assets/Group 2.png" >
+                <img class="img-proyecto" src="./assets/Group 2.png">
                 <h2> Studio Ghibli</h2>
                 <p>Sitio web que abarca información acerca de los productores y directores del studio japones de
                     animación, además muestra todas las
                     películas de Studio Ghibli. (proyecto educativo)</p>
-                <div class="button">
-                    <a class="Demo" target="_blank" 
-                        href="https://studio-ghibli-collection.vercel.app/">Demo</a>
+                <div class="contenedor-button">
+                    <a class="Demo" target="_blank" href="https://studio-ghibli-collection.vercel.app/">Demo</a>
                     <a class="github" target="_blank"
                         href="https://github.com/Valmontx/Studio-Ghibli-Collection-">GitHub</a>
                 </div>
             </div>
 
             <div class="card-proyecto">
-                <img src="./assets/Group 3.png" alt="">
+                <img class="img-proyecto" src="./assets/Group 3.png" alt="">
                 <h2> Somos Amalia</h2>
                 <p>Somos Amalia es una organización sin fines de lucro que brinda apoyo a mujeres que han sobrevivido a
                     situaciones de violencia. En este espacio, se dispone de asesoramiento psicológico, asesoría legal,
                     conferencias y otros recursos. Todo ello está a cargo de profesionales y se ofrece de
                     forma gratuita para aquellas mujeres que han sido vulneradas.</p>
-                <div class="button">
+                <div class="contenedor-button">
                     <a class="Demo" href="https://www.somosamalia.org/">Demo</a>
                     <a class="github" href="#">GitHub</a>
                 </div>
             </div>
 
             <div class="card-proyecto">
-                <img src="./assets/Group 4.png" >
+                <img class="img-proyecto" src="./assets/Group 4.png">
                 <h2> Recilito</h2>
                 <p>Se realizó un Producto Mínimo Viable (MVP) con la tematica del reciclaje, dando origen
                     a "Recilito", una App que facilita y mejora el proceso de reciclaje en hogares,
@@ -158,24 +134,27 @@
                     los recicladores, ofreciéndoles una serie de beneficios que incluyen servicios de salud,
                     financiamiento, acceso a recursos educativos y formación. El objetivo es fomentar la
                     interconexión entre usuarios, recicladores y empresas.</p>
-                <div class="button">
+                <div class="contenedor-button">
                     <a class="Demo" target="_blank"
                         href="https://www.figma.com/proto/Trp0a9NM7capYnkSJ6Z7zh/Recilito-APP?node-id=22-9&t=1NoFt0edtG6nX5q5-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=22%3A9">Demo</a>
                     <a class="github" href="#">Figma</a>
                 </div>
             </div>
             <div class="card-proyecto">
-                <img src="./assets/Group 5.png">
+                <img class="img-proyecto" src="./assets/Group 5.png">
                 <h2> Mediconnect</h2>
-                <p> Este caso de estudio presenta el diseño de Mediconnect, una aplicación de salud que facilita a los usuarios la gestión de sus citas médicas.
-                 A través de la app, los usuarios pueden crear una cuenta, reservar citas con especialistas, 
-                 consultar su historial médico y recibir recordatorios importantes. 
-                 El objetivo principal de Mediconnect es mejorar la experiencia de atención médica, 
-                 aprovechando la tecnología para conectar a los pacientes con los mejores profesionales de la salud y simplificar el proceso. </p>
-                <div class="button">
+                <p> Este caso de estudio presenta el diseño de Mediconnect, una aplicación de salud que facilita a los
+                    usuarios la gestión de sus citas médicas.
+                    A través de la app, los usuarios pueden crear una cuenta, reservar citas con especialistas,
+                    consultar su historial médico y recibir recordatorios importantes.
+                    El objetivo principal de Mediconnect es mejorar la experiencia de atención médica,
+                    aprovechando la tecnología para conectar a los pacientes con los mejores profesionales de la salud y
+                    simplificar el proceso. </p>
+                <div class="contenedor-button">
                     <a class="Demo" target="_blank"
                         href="https://www.figma.com/proto/d5Fjb0k7DFe06nCwTEht1o/Grupo-5---Mediconnect?node-id=1394-3435&starting-point-node-id=1527%3A8493">Demo</a>
-                    <a class="github" href="https://www.figma.com/proto/d5Fjb0k7DFe06nCwTEht1o/Grupo-5---Mediconnect?node-id=1621-10247&node-type=canvas&t=b6QtFaYBDQPD2hYh-0&scaling=scale-down-width&content-scaling=fixed&page-id=32%3A2&starting-point-node-id=1621%3A10247&show-proto-sidebar=1">Figma</a>
+                    <a class="github"
+                        href="https://www.figma.com/design/d5Fjb0k7DFe06nCwTEht1o/Grupo-5---Mediconnect?node-id=332-786&p=f&t=WVF2jPRYLTmulOmE-0">Figma</a>
                 </div>
             </div>
         </div>
@@ -207,7 +186,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
         integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
         crossorigin="anonymous"></script>
-    <script src='.main.js'></script>
+    <script src="main.js"></script>
 
 </body>
 

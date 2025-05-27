@@ -11,14 +11,13 @@
     --color-input: #232323;
     --color-border: #333333;
     --color-letra-secundario: #232323;
-    --letra-principal: "Roboto", sans-serif;
+    --letra-principal: "Poppins", sans-serif;
 }
 
 body {
     overflow-x: hidden;
     background-color: var(--color-base);
     font-family: var(--letra-principal);
-    cursor: url(./assets/cursor-icon.png), auto;
 }
 
 nav {
@@ -56,43 +55,42 @@ header {
     display: flex;
     align-items: center;
     flex-direction: column;
+    justify-content: center;
     width: 100%;
     min-width: 100%;
     height: 600px;
+    gap: 20px;
     background-image: linear-gradient(to right bottom, #b20ecf46, #ca5ad72f), url(./assets/background.png);
 
 
 }
 
-.titulo-secundario p {
-    display: flex;
-    margin-top: 110px;
-    font-size: 40px;
+.contenedor-titulos p{
+    width: auto;
+    font-size: 1.5em;
     font-family: var(--letra-principal);
     color: #ffff;
-    justify-content: center;
-    font-weight: lighter;
+    font-weight: 200;
     letter-spacing: 1px;
     text-align: center;
-    word-spacing: 15px;
-
+    margin-top: 20px;
 
 }
 
+
 .titulo-principal {
-    font-size: 70px;
-    display: flex;
-    justify-content: center;
+    font-size: 2em;
     font-family: "Poppins", sans-serif;
     color: var(--color-subtitulos);
     font-weight: bold;
     text-shadow: 4px 4px 0px #333333;
+    text-transform: uppercase;
 
 }
 
 .contenedor-botones {
     width: 100%;
-    height: 150px;
+    height: 140px;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -101,7 +99,7 @@ header {
 .descargar-cv {
     width: 120px;
     height: 45px;
-    border-radius: 10px;
+    border-radius: 6px;
     background-color: #100F0F;
     border: 1px solid rgba(255, 255, 255, 0.28);
     color: #ffff;
@@ -127,15 +125,24 @@ header {
     color: var(--color-subtitulos);
     text-transform: uppercase;
     font-weight: 600;
-    font-size: 17px;
-    margin-left: 30px;
-    margin-top: 35px;
+    font-size: 1em;
+    text-align: center;
+    margin: 20px 0 20px 0;
     letter-spacing: 2px;
-    margin-bottom: 25px;
+    
 }
 
+.sobremi{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
 .texto-sobre-mi {
-
+    width: 1170px;
     height: auto;
     color: var(--color-letra);
     font-weight: normal;
@@ -144,9 +151,11 @@ header {
     font-size: 16px;
     display: flex;
     justify-content: center;
-    padding-right: 20px;
-    padding-left: 25px;
-    margin-top: 25px;
+    padding: 20px;
+   
+}
+.texto-sobre-mi i{
+ transition: all 0.8s ease-in;
 
 }
 
@@ -155,19 +164,19 @@ header {
     height: auto;
     display: flex;
     justify-content: center;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 
 
 
 }
 ul.lista-habilidades{
-   
+    padding-top: 8px;
     padding-left: 8px;
     padding-right: 8px;
 }
 
 .lista-habilidades {
-    width: 1300px;
+    width: 1000px;
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
@@ -177,15 +186,17 @@ ul.lista-habilidades{
 }
 
 .lista-habilidades li {
-    width: 210px;
-    height: 40px;
+    width: auto;
+    height: auto;
     border: 1px solid rgba(51, 51, 51, 0.95);
     background-color: var(--color-input);
-    border-radius: 5px;
+    border-radius: 2px;
     color: #ffff;
     font-weight: 400;
     text-align: center;
     align-content: center;
+    font-size: 0.7em;
+    padding: 4px;;
 
 }
 
@@ -209,6 +220,7 @@ ul.lista-habilidades{
 
 /*Estilos de proyectos*/
 .section-proyectos {
+
     width: 100%;
     height: auto;
 
@@ -217,54 +229,62 @@ ul.lista-habilidades{
 .contenedor-proyectos {
 
     justify-items: center;
-    display: grid;
-    grid-template-columns: 600px 2fr;
-    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
 
 
 }
 
-.card-proyecto {
-
-    padding-bottom: 30px;
-
-
+.card-proyecto{
+    width: 450px;
+    height: auto;
+    padding: 10px;
+    text-align: justify;
+    
+    
 }
-
 .card-proyecto img {
+    
     width: 280px;
     height: 160px;
-    margin-left: 30px;
+    
+    
 }
 
 
 .card-proyecto h2 {
-    width: 478px;
     font-size: 20px;
     font-weight: 500;
     color: #eef0f8;
     font-family: "Poppins", sans-serif;
-    padding-left: 30px;
+    margin: 12px;
+    
 }
 
 .card-proyecto p {
-    width: 478px;
     height: auto;
     color: var(--color-letra);
     font-weight: normal;
     line-height: 30px;
     letter-spacing: 1px;
     font-size: 13px;
-    padding-left: 30px;
+    margin: 12px;
+    
 
 }
 
-.button {
-    margin-bottom: 28px;
+.contenedor-button{
+    display: flex;
+    gap: 20px;
+    margin: 12px;
 }
+
 
 .Demo,
 .github {
+    width: auto;
     border-radius: 8px;
     background-color: rgba(0, 0, 0, 1);
     color: #fff;
@@ -272,7 +292,7 @@ ul.lista-habilidades{
     font-size: 12px;
     font-weight: 400;
     border: none;
-    margin-left: 30px;
+    
 
 }
 
@@ -282,7 +302,6 @@ ul.lista-habilidades{
 
 footer {
     display: flex;
-
     width: 100%;
     height: 240px;
     background-color: #100F0F;
@@ -355,182 +374,28 @@ footer p {
     transform: translateX(-50%);
 }
 
-/*responsive*/
-@media(min-width: 320px) and (max-width:1000px) {
-
-    html {
-        overflow-x: hidden;
-    }
-
-    header {
-        height: 500px;
-        /*comparar */
-        object-fit: contain;
-        background-position: center;
-        justify-content: center;
-
-    }
-
-    nav {
-        display: none;
-    }
-
-    .titulo-secundario p {
-        font-size: 25px;
-
-
-
-    }
-
-    .titulo-principal {
-        font-size: 35px;
-        margin-top: 25px;
-    }
-
-    .contenedor-botones {
-        height: 180px;
-    }
-
-    .WhatsApp {
-        width: 45px;
-        height: 45px;
-
-
-    }
-
-    .descargar-cv {
-        width: 100px;
-        height: 35px;
-        font-size: 11px;
-        padding: 8px;
-    }
-
-    .sobremi {
-        display: flex;
-        flex-direction: column;
-
-    }
-
-    .encabezado-secundario {
-        margin-left: 35px;
-        margin-right: 10px;
-
-    }
-
-    .texto-sobre-mi {
-        width: 100%;
-        margin: 0;
-        padding: 35px;
-        height: 40%;
-        padding-top: 0;
-    }
-
-    .lista-habilidades {
-        width: auto;
-
-    }
-
-    .lista-habilidades li {
-
-        width: 100px;
-        height: 28px;
-        font-size: 11px;
-        margin-top: 0;
-        padding: 5px;
-    }
-    .lista-habilidades ul{
-        margin-right: 0;
-        padding-right: 0;
-    }
-
-    .section-certificado {
-        height: 240px;
-    }
-
-    .d-block {
-        height: 225px;
-        padding: 15px;
-    }
-
-    .contenedor-habilidades {
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
+:hover.descargar-cv{
+    background-color: var(--color-subtitulos);
+    color: #100F0F;
     
-        
+}
 
-    }
+:hover.WhatsApp {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
 
-    .contenedor-proyectos {
-        justify-items: center;
-        display: flex;
-        flex-direction: column;
-        padding: auto;
-        
-    }
+:hover.img-proyecto{
+    transform: scale(1.1);
+    transition: 0.3s;
+    cursor: pointer;
+}
 
-    .card-proyecto img {
-        width: 252px;
-        height: 150px;
-        
 
-    }
-
-    .card-proyecto {
-        padding-bottom: 25px;
-        padding-left: 15px; 
-        padding-right: 15px;
-        
-    ;
-    }
-
-    .card-proyecto h2 p {
-        padding-left: 15px;
-    }
-
-    .card-proyecto p {
-        width: 325px;
-        /*300*/
-    }
-
-    .button {
-        height: 45px;
-        padding: 5px;
-        align-content: center;
-    }
-
-    .button a {
-        width: 45px;
-        height: 25px;
-    }
-
-    footer {
-        width: 450px;
-        height: 240px;
-
-    }
-
-    .copywrite {
-        margin-bottom: 0;
-    }
-
-    .contenedor-navbar ul {
-        display: none;
-    }
-
-    .contenedor-iconos {
-        flex-direction: column;
-        width: 150px;
-        height: 140px;
-        margin: 0;
-        gap: 10px;
-        align-items: center
-    }
-
-    .contenedor-iconos img {
-        width: 20px;
-        height: 20px;
-    }
-
+.lista-nav a:hover {
+    color: var(--color-letra);
+}
+span{
+    color: var(--color-subtitulos);
+    font-weight: 400;
 }
