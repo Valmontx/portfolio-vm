@@ -65,9 +65,8 @@ header {
 
 }
 
-.contenedor-titulos p{
+.contenedor-titulos {
     width: auto;
-    font-size: 1.5em;
     font-family: var(--letra-principal);
     color: #ffff;
     font-weight: 200;
@@ -77,15 +76,14 @@ header {
 
 }
 
-
 .titulo-principal {
     font-size: 2em;
-    font-family: "Poppins", sans-serif;
-    color: var(--color-subtitulos);
-    font-weight: bold;
-    text-shadow: 4px 4px 0px #333333;
-    text-transform: uppercase;
-
+    font-weight: lighter;
+}
+.titulo-secundario{
+    font-size: 1.4em;
+    margin-top: 18px;
+    font-weight: 300;
 }
 
 .contenedor-botones {
@@ -117,7 +115,7 @@ header {
     display: inline-block;
     width: 50px;
     height: 50px;
-    margin-right: 25px;
+    
     cursor: pointer;
     box-shadow: rgba(255, 255, 255, 0.28);
     position: fixed;
@@ -386,10 +384,7 @@ footer p {
     
 }
 
-:hover.WhatsApp {
-    transform: scale(1.1);
-    transition: 0.3s;
-}
+
 
 :hover.img-proyecto{
     transform: scale(1.1);
