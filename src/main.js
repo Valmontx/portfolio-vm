@@ -18,6 +18,7 @@ const habilidades = [
     "Marvel",
     "WordPress",
     "Canva",
+    "Notion",
     "Jira",
 ]
 
