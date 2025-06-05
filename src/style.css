@@ -53,12 +53,13 @@ a {
 
 header {
     display: flex;
-    align-items: center;
+    align-content: center;
+    align-items: stretch;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     width: 100%;
     min-width: 100%;
-    height: 600px;
+    height: 100vh;
     gap: 20px;
     background-image: linear-gradient(to right bottom, #b20ecf46, #ca5ad72f), url(./assets/background.png);
 
@@ -72,43 +73,35 @@ header {
     font-weight: 200;
     letter-spacing: 1px;
     text-align: center;
-    margin-top: 20px;
+   
 
 }
 
 .titulo-principal {
-    font-size: 2em;
+    font-size: 2.5em;
     font-weight: lighter;
     
 }
 .titulo-secundario{
     font-size: 1.4em;
     margin-top: 18px;
-    font-weight: 300;
+    font-weight: 200;
     
 }
 
 
-.contenedor-botones {
-    width: 100%;
-    height: 140px;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    
-}
 
 .descargar-cv {
     width: 120px;
-    height: 45px;
+    height: auto;
     border-radius: 6px;
     background-color: #100F0F;
-    border: 1px solid rgba(255, 255, 255, 0.28);
+    /* border: 1px solid rgba(255, 255, 255, 0.28); */
     color: #ffff;
     font-size: 12px;
     letter-spacing: 1px;
     cursor: pointer;
-    padding: 12px;
+    padding: 14px;
     text-align: center;
     margin: 30px;
 
@@ -181,15 +174,13 @@ header {
 
 }
 ul.lista-habilidades{
-    
-   
-    padding-top: 8px;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .lista-habilidades {
-    margin:20px;
+    
     width: 800px;
     display: flex;
     flex-wrap: wrap;
@@ -255,7 +246,7 @@ ul.lista-habilidades{
     width: 450px;
     height: auto;
     padding: 10px;
-    text-align: justify;
+    
     
     
 }
@@ -285,6 +276,7 @@ ul.lista-habilidades{
     letter-spacing: 1px;
     font-size: 13px;
     margin: 12px;
+   
     
 
 }
