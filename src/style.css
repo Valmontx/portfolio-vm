@@ -85,7 +85,7 @@ header {
 .titulo-secundario{
     font-size: 1.4em;
     margin-top: 18px;
-    font-weight: 200;
+    font-weight: 300;
     
 }
 
@@ -151,8 +151,8 @@ header {
     color: var(--color-letra);
     font-weight: normal;
     line-height: 30px;
-    letter-spacing: 1px;
-    font-size: 16px;
+    
+    font-size: 15px;
     display: flex;
     justify-content: center;
     padding: 20px;
@@ -272,9 +272,8 @@ ul.lista-habilidades{
     height: auto;
     color: var(--color-letra);
     font-weight: normal;
-    line-height: 30px;
-    letter-spacing: 1px;
-    font-size: 13px;
+
+    font-size: 15px;
     margin: 12px;
    
     
