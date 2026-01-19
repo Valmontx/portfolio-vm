@@ -26,13 +26,13 @@
 
     .titulo-principal {
         font-weight: lighter;
-        font-size: 3rem;
+        font-size: 2.5rem;
 
     }
 
     .titulo-secundario {
 
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         margin: 2rem;
         font-weight: 300;
 
@@ -57,7 +57,7 @@
 
     .texto-sobre-mi {
         width: 100%;
-        text-align: justify;
+        text-align: center;
         font-size: 1rem;
     }
 
@@ -93,7 +93,7 @@
     .contenedor-habilidades {
        
         .card{
-            width: 190px;
+           
             height:auto;
             padding: 10px;
             margin: 10px;
@@ -116,12 +116,12 @@
         margin-bottom: 2rem;
 
         .img-proyecto {
-            width: auto;
+           
             height: auto;
         }
     
         p{
-            margin: 1rem 6rem 4rem 6rem;
+            margin: 1.5rem;            
             font-size: 1.5rem;
         }
         a{
